@@ -1,0 +1,26 @@
+.error_wrapper {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    color: rgb(221, 57, 57);
+    margin-bottom: 40px;
+  }
+  button {
+    padding: 14px;
+    border: none;
+    background-color: rgb(221, 57, 57);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.02);
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
